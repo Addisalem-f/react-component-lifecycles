@@ -14,7 +14,6 @@ class App extends React.Component {
         {name:"Banana"}
     ]
   }
-
   movieNameChangeEventHandler = (event) => {
     let copy={...this.state.movies}
         copy.name = event.target.value;
